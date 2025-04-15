@@ -25,9 +25,25 @@ three.addEventListener("dblclick",()=>{
     three.classList.toggle("teal");
 });
 let four = document.querySelector(".mousedown");
+four.addEventListener("mousedown",()=>{
+    four.classList.toggle("steelblue");
+});
 let five = document.querySelector(".mouseenter");
+five.addEventListener("mouseenter",()=>{
+    five.classList.toggle("orange");
+});
 let six = document.querySelector(".mouseleave");
+six.addEventListener("mouseleave",()=>{
+    six.classList.toggle("purple");
+});
 let seven = document.querySelector(".mousemove");
+seven.addEventListener("mousemove",()=>{
+   seven.classList.toggle("pink");
+});
+
 let eight = document.querySelector(".mouseout");
+eight.addEventListener("mouseout",()=>{
+    eight.classList.toggle("crimson");
+ });
 let nine = document.querySelector(".mouseover");
 let ten = document.querySelector(".mouseup");
