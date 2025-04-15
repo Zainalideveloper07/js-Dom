@@ -46,4 +46,10 @@ eight.addEventListener("mouseout",()=>{
     eight.classList.toggle("crimson");
  });
 let nine = document.querySelector(".mouseover");
+nine.addEventListener("mouseover",()=>{
+    nine.classList.toggle("chocolate");
+ });
 let ten = document.querySelector(".mouseup");
+ten.addEventListener("mouseup",()=>{
+    ten.classList.toggle("aqua");
+ });
