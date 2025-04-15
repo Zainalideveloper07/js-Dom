@@ -12,8 +12,18 @@
 // 10. mouseup
 
 let one = document.querySelector(".click");
+one.addEventListener("click",()=>{
+    one.classList.toggle("red");
+});
 let two = document.querySelector(".contextmenu");
+two.addEventListener("contextmenu",()=>{
+    two.classList.toggle("blue");
+});
+
 let three = document.querySelector(".dblclick");
+three.addEventListener("dblclick",()=>{
+    three.classList.toggle("teal");
+});
 let four = document.querySelector(".mousedown");
 let five = document.querySelector(".mouseenter");
 let six = document.querySelector(".mouseleave");
